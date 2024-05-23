@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+li {
+  text-transform: uppercase;
+}
+
+#nav-items li {
+  @apply hover:cursor-pointer hover:border-b py-8 hidden md:block;
+}
+
+.home-height {
+  min-height: calc(100vh - 155px);
+}
+
+#explore{
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#home p{
+    line-height: 25px;
+}
+
+#home h1, #home h2{
+    text-transform: uppercase;
+}
