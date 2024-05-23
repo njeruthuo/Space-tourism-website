@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <div id="home" className="home-height flex items-center">
@@ -21,7 +23,7 @@ const Home = () => {
             id="explore"
             className="w-44 h-44 text-xl bg-white rounded-full text-black flex items-center justify-center"
           >
-            Explore
+            <Link to={"/destinations"}>Explore</Link>
           </div>
         </div>
       </div>
